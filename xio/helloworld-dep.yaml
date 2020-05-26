@@ -1,4 +1,4 @@
-apiVersion: test/helloworld                  #apiserver的版本
+apiVersion: apps/v1 # for versions before 1.6.0 use extensions/v1beta1                  #apiserver的版本
 kind: Deployment                                      #副本控制器deployment，管理pod和RS
 metadata:
   name: helloworld   #deployment的名称，全局唯一
