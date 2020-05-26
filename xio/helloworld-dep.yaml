@@ -19,4 +19,4 @@ spec:
       - name: helloworld                                     #容器的名称
         image: 10.19.1.56:1180/test/helloworld:v1.0                               #容器对应的docker镜像
         ports:
-        - containerPort: 8080                         #容器暴露的端口号
+        - containerPort: 8088                         #容器暴露的端口号
