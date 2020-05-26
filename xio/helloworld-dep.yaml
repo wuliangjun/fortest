@@ -21,4 +21,4 @@ spec:
         ports:
         - containerPort: 8088                         #容器暴露的端口号
       imagePullSecrets:
-            - name: harbor
+      - name: harbor
